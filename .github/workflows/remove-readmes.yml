@@ -33,6 +33,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No README files to remove."
           else
-            git commit -m "Remove LeetSync README files"
+            git commit -m "Arrangement based on Patterns & Cleanup"
             git push
           fi
